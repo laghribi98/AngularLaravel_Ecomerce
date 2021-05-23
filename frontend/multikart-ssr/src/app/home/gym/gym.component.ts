@@ -10,7 +10,7 @@ import { InstagramService } from '../../shared/services/instagram.service';
 })
 export class GymComponent implements OnInit, OnDestroy {
 
-  public themeLogo: string = 'assets/images/icon/logo1.png'; // Change Logo
+  public themeLogo: string = 'assets/images/logos/logo.png'; // Change Logo
   public products: Product[] = [];
 
   constructor(public productService: ProductService,
